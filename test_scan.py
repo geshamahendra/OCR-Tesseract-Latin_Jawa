@@ -92,10 +92,12 @@ def extract_text_from_pdf(
 
 if __name__ == "__main__":
     # === CONFIGURASI YANG MUDAH DIUBAH ===
+
     project_name = "negarakretagama"    # Nama folder hasil
     ocr_language = "kakawin"  # Bahasa OCR, BISA DIGANTI-BEBAS
 
     pdf_file = f"scan_source/[Pigeaud 1960-1963] Java in the 14th Century - Nagarakertagama Text and Colophons.pdf"
+
     output_image_dir = f"scan_result/result_{project_name}/images"
     output_text_file = f"scan_result/result_{project_name}/result_{project_name}.txt"
     pages_to_process = [(13, 126)]  # Bisa banyak range [(1,5), (10,12), dst.]
