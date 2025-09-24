@@ -71,9 +71,9 @@ def extract_text_from_images(
     return extracted_text
 
 if __name__ == "__main__":
+
     project_name = "nagarakretagama"  # Nama project 
     ocr_language = "kakawin"  # Bahasa OCR (.traineddata)
-
     base_dir = f"scan_result/result_{project_name}"
     images_dir = os.path.join(base_dir, "images")
     output_text_file = os.path.join(base_dir, f"result_{project_name}.txt")
