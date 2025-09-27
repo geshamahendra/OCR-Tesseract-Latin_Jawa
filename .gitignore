@@ -1,3 +1,5 @@
 *.png
 *.pdf
-*.DS_Store
+*.DS_Store*.pdf
+*.png
+.DS_Store
